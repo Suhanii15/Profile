@@ -310,10 +310,10 @@ function Hero() {
       </div>
 <div style={{
   position: 'absolute',
-  top: '42%',                          // Changed from 50% to 42% to lift it higher
-  right: '15%',                        // Slight increase to pull it away from the stats column
+  top: '42%',                         
+  right: '15%',                      
   transform: 'translateY(-50%)', 
-  width: 'clamp(220px, 22vw, 320px)',  // Made slightly larger to balance the large "Suhani" typography
+  width: 'clamp(220px, 22vw, 320px)',  
   height: 'clamp(220px, 22vw, 320px)', 
   borderRadius: '50%',
   overflow: 'hidden',
@@ -335,7 +335,7 @@ function Hero() {
         display: 'flex', flexDirection: 'column', gap: 28,
         animation: 'fadeUp 0.7s 0.9s both',
       }}>
-        {[['1st', 'HACKATHON'], ['200+', 'DSA SOLVED'], ['3+', 'PROJECTS']].map(([n, l]) => (
+        {[['1st', 'HACKATHON'], ['200+', 'DSA Questions SOLVED'], ].map(([n, l]) => (
           <div key={l} style={{ textAlign: 'right' }}>
             <div style={{
               fontFamily: "'Playfair Display', serif", fontSize: 38, fontWeight: 900,
