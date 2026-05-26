@@ -335,7 +335,7 @@ function Hero() {
         display: 'flex', flexDirection: 'column', gap: 28,
         animation: 'fadeUp 0.7s 0.9s both',
       }}>
-        {[['1st', 'HACKATHON'], ['200+', 'DSA Questions SOLVED'], ].map(([n, l]) => (
+        {[['1st Position', 'HACK IIITV'], ['200+', 'DSA Questions SOLVED'], ].map(([n, l]) => (
           <div key={l} style={{ textAlign: 'right' }}>
             <div style={{
               fontFamily: "'Playfair Display', serif", fontSize: 38, fontWeight: 900,
